@@ -75,7 +75,7 @@ Formula: 5ˣ . 2ʸ
 5³ . 2³ = 1000
 ```
 
-This can be useful in calculating the value of a certain roman numeral if they're stored in an enum in ascending order:
+The integer value of a single roman numeral can be retreived based on its index this way if they're stored in an enum.
 ```cpp
 enum RomanNumeral {
     I = 0,
@@ -94,3 +94,5 @@ int value = pow(5, i - x) * (1 << x);
 
 cout << value; // 1000
 ```
+
+Though it might be just better to store the raw values of each basic numeral at this point. This formula was just an interesting discovery I wanted to mention here. There might not neccessarily be any practical use for it.
