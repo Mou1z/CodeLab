@@ -65,6 +65,7 @@ Formula: 5ˣ . 2ʸ
 - 'y' is equal to 'n // 2' where `n` is the term index, if starting from 0. (`//` is the symbol of floor division)
 - 'x' is equal to 'n - y'
 
+```
 5⁰ . 2⁰ = 1
 5¹ . 2⁰ = 5
 5¹ . 2¹ = 10
@@ -72,6 +73,7 @@ Formula: 5ˣ . 2ʸ
 5² . 2² = 100
 5³ . 2² = 500
 5³ . 2³ = 1000
+```
 
 This can be useful in calculating the value of a certain roman numeral if they're stored in an enum in ascending order:
 ```cpp
