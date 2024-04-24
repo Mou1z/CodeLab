@@ -5,8 +5,10 @@
 
 The reason I'm sharing this solution is because apparently my solution is faster than 100% of the other submissions for C++, therefore I think this solution can be featured in this repository.
 
+### Results
 <img src="https://github.com/Mou1z/CodeLab/blob/main/romanToInt%20Problem/result.PNG">
 
+### Code
 ```cpp
 class Solution {
     public:
