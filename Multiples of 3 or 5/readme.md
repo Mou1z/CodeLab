@@ -1,7 +1,7 @@
 # Multiples of 3 or 5
 
-**Source:** https://projecteuler.net/problem=1
-**Language Used:** Python
+- **Source:** https://projecteuler.net/problem=1
+- **Language Used:** Python
 
 ### Explanation
 This is the first problem on Project Euler, which is quite easy to solve using a simple `for` loop. However I wanted to take it further. 
