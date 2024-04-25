@@ -4,7 +4,7 @@
 - **Language Used:** C++
 
 ### Results
-<img src="">
+<img src="https://github.com/Mou1z/CodeLab/blob/main/Longest%20Common%20Prefix/longestCommonPrefix.PNG">
 
 ### Explanation / Commentary
 Initially, when I tried solving this problem, I ended up with this solution, and it was giving me a speed score of about 80%. I have to accept, the following code is quite ugly and inefficient according to my standards and there are a few mistakes you might be able to spot as well. However, by the end of this article, this will be turned into something much better.
