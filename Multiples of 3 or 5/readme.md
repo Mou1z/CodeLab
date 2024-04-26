@@ -23,7 +23,7 @@ def calsum1(a, b, n):
     return sum((i for i in range(n) if i % a == 0 or i % b == 0))
 
 # Using Mathematics - EXTREMELY FAST!
-# Passing an ridiculously large value still results in amazingly fast results.
+# Passing a ridiculously large value still results in amazingly fast results.
 # calsum2(3, 5, 1000000000000000000000000000000) 
 # Total time: 1.09e-05 s
 def calsum2(a, b, n):
