@@ -8,7 +8,7 @@ This is the first problem on Project Euler, which is quite easy to solve using a
 
 I tried deriving a formula to be able to solve it and after some time I was able to come up with a solution. 
 
-There is a series summation formula which we study in high school `n(n + 1) / 2` and this came in handy. I figured, we can find the value of `n` by dividing the "target" value by the number (floor division) who's series we are trying to calculate so it can be `target / 3` or `target / 5`, or any other number. After we get the value of `n` , we can calculate the summation and multiply the result `3` or `5`. It can basically get the sum of all the multiples of `3` or `5` up till `n`. 
+There is a series summation formula which we study in high school `n(n + 1) / 2` and this came in handy. I figured, we can find the value of `n` by dividing (floor division) the "target" value by the number who's series we are trying to calculate so it can be `target / 3` or `target / 5`, or any other number. After we get the value of `n` , we can calculate the summation and multiply the result `3` or `5`. It can basically get the sum of all the multiples of `3` or `5` up till `n`. 
 
 I can then sum both of them up, however there would be a small problem - the duplicates, because there are obviously some common multiples between `3` and `5`. After some searching, I was able to figure out, I can eliminate the duplicates by subtracting the multiples of `3x5` (`15`) from the sum, which is basically what I did.
 
