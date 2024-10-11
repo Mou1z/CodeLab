@@ -1,6 +1,6 @@
 # Merge Two Sorted Lists
 
-- **Source:** [https://projecteuler.net/problem=1](https://leetcode.com/problems/merge-two-sorted-lists)
+- **Source:** https://leetcode.com/problems/merge-two-sorted-lists
 - **Language Used:** C++
 
 ### Description
